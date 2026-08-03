@@ -58,4 +58,4 @@ class Comment(models.Model):
         ]
 
     def __str__(self):
-        return f'Comment by {self.name} on {self.post}'
+        return f'Комментарий от {self.name} на {self.post}'
